@@ -3,7 +3,7 @@
     <div class="container">
         <Sidebar></Sidebar>
         <div class="content">
-            <input type="texto" v-model="texto">
+            <input type="text" v-model="texto">
             {{ texto }}
             <router-view></router-view>
         </div>
